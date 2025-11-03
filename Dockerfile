@@ -33,3 +33,5 @@ EXPOSE 8080
 
 # Start the server
 CMD ["http-server", "dist", "-p", "8080", "-c-1"]
+
+#Image will be pushed to docker ECR
